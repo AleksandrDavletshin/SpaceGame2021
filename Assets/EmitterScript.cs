@@ -29,9 +29,10 @@ public class EmitterScript : MonoBehaviour
             float posZ = transform.position.z;
 
             //создаем астероид
-            Instantiate(asteroid, new Vector3(posX, posY, posZ), Quaternion.identity);
-
+            GameObject shot = Instantiate(asteroid, new Vector3(posX, posY, posZ), Quaternion.identity);
+            
             nextLaunchTime = Time.time + Random.Range(minDelay, maxDelay);
+            Destroy(shot, 5f);
         }
     }
 }
