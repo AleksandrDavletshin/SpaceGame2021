@@ -15,11 +15,11 @@ E:/Project/SpaceGame2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49848
+51830
 Successfully changed project path to: E:/Project/SpaceGame2021
 E:/Project/SpaceGame2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -29,659 +29,667 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce 820M (ID=0x1140)
     Vendor:   
-    VRAM:     978 MB
-    Driver:   21.21.13.7654
+    VRAM:     979 MB
+    Driver:   22.21.13.8205
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002383 seconds.
+Registered in 0.002995 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.098 seconds
+- Completed reload, in  3.968 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000918 seconds.
+Registered in 0.000956 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.578 seconds
+- Completed reload, in  1.866 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1097 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.7 MB.
-System memory in use after: 58.7 MB.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.9 MB.
+System memory in use after: 59.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1542.
-Total: 2.979500 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.518900 ms  DeleteObjects: 0.073000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1544.
+Total: 5.797900 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.080400 ms MarkObjects: 5.053200 ms  DeleteObjects: 0.244100 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Controller.cs
+  artifactKey: Guid(5030f73d772449a4f93218fdf6c3d382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Controller.cs using Guid(5030f73d772449a4f93218fdf6c3d382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a6ac5635b62b15113e8b1efc1805ce') in 0.902377 seconds
+  Import took 0.942246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 560.923948 seconds.
   path: Assets/AsteroidScript.cs
   artifactKey: Guid(a088ff34f55d47248940f1d899fad411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AsteroidScript.cs using Guid(a088ff34f55d47248940f1d899fad411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82720a2b9333ade69885b9d8b285e38c') in 1.128599 seconds
-  Import took 1.327426 seconds .
+Start importing Assets/AsteroidScript.cs using Guid(a088ff34f55d47248940f1d899fad411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8498fe180dc0fe19b7bc4d9072d033e') in 0.161180 seconds
+  Import took 0.166683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046344 seconds.
+  path: Assets/AsteroidScript.cs
+  artifactKey: Guid(a088ff34f55d47248940f1d899fad411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidScript.cs using Guid(a088ff34f55d47248940f1d899fad411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8498fe180dc0fe19b7bc4d9072d033e') in 0.014957 seconds
+  Import took 0.019060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.884961 seconds.
+  path: Assets/EmitterScript.cs
+  artifactKey: Guid(4cf2a556bdfde9f45aa2f62243ea097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmitterScript.cs using Guid(4cf2a556bdfde9f45aa2f62243ea097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267babed9c9af2ce8d210bef92c827c5') in 0.045444 seconds
+  Import took 0.049993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.461901 seconds.
+  path: Assets/FireFlyScript.cs
+  artifactKey: Guid(11d1b4ae2a444b247afa1e64bf08bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireFlyScript.cs using Guid(11d1b4ae2a444b247afa1e64bf08bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088c983b9c080f20ccbf42100bac22c3') in 0.020087 seconds
+  Import took 0.025698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112448 seconds.
+  path: Assets/FireFlyScript.cs
+  artifactKey: Guid(11d1b4ae2a444b247afa1e64bf08bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireFlyScript.cs using Guid(11d1b4ae2a444b247afa1e64bf08bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088c983b9c080f20ccbf42100bac22c3') in 0.015095 seconds
+  Import took 0.019479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.194603 seconds.
+  path: Assets/ScrollerScript.cs
+  artifactKey: Guid(17071493b4d0d5642abe0b8783782c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScrollerScript.cs using Guid(17071493b4d0d5642abe0b8783782c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3df593ca698464dfd2e182aae189bf3') in 0.211006 seconds
+  Import took 0.221393 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014642 seconds.
+Registered in 0.001563 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.230 seconds
+- Completed reload, in  4.793 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.1 MB.
-System memory in use after: 58.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1544.
-Total: 15.150500 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.325700 ms MarkObjects: 12.569600 ms  DeleteObjects: 1.905200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001001 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.519 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.3 MB.
-System memory in use after: 58.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1546.
-Total: 3.417700 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.093600 ms MarkObjects: 3.060300 ms  DeleteObjects: 0.024100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002496 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.683 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1548.
-Total: 5.657300 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.173200 ms MarkObjects: 5.092000 ms  DeleteObjects: 0.038000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000906 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.695 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.3 MB.
-System memory in use after: 59.4 MB.
+Unloading 1082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1550.
-Total: 3.350600 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.314100 ms MarkObjects: 2.563900 ms  DeleteObjects: 0.023900 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 5.822200 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.155300 ms MarkObjects: 5.157500 ms  DeleteObjects: 0.119900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001108 seconds.
+Registered in 0.025497 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.858 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1552.
-Total: 4.765400 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.103200 ms MarkObjects: 4.273300 ms  DeleteObjects: 0.088000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000965 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.735 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.3 MB.
-System memory in use after: 59.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1554.
-Total: 2.866900 ms (FindLiveObjects: 0.531300 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.224500 ms  DeleteObjects: 0.025400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001042 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.893 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1556.
-Total: 2.658500 ms (FindLiveObjects: 0.199600 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.356200 ms  DeleteObjects: 0.028600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000971 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.686 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.3 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1558.
-Total: 3.501400 ms (FindLiveObjects: 0.992300 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.377000 ms  DeleteObjects: 0.025900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000962 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.656 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.3 MB.
-System memory in use after: 59.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1560.
-Total: 2.795700 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.464300 ms  DeleteObjects: 0.028700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001399 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.689 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1562.
-Total: 4.026300 ms (FindLiveObjects: 0.631000 ms CreateObjectMapping: 0.147200 ms MarkObjects: 3.219500 ms  DeleteObjects: 0.026500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001006 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.669 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 3.833500 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.069300 ms MarkObjects: 3.469200 ms  DeleteObjects: 0.026800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.630 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 4.108700 ms (FindLiveObjects: 0.327800 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.573400 ms  DeleteObjects: 0.027600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.855 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 6.827200 ms (FindLiveObjects: 0.797800 ms CreateObjectMapping: 0.167300 ms MarkObjects: 5.823500 ms  DeleteObjects: 0.035400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001976 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.630 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 3.755800 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.098900 ms MarkObjects: 3.327800 ms  DeleteObjects: 0.026500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001061 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1572.
-Total: 3.803400 ms (FindLiveObjects: 0.682000 ms CreateObjectMapping: 0.186800 ms MarkObjects: 2.905800 ms  DeleteObjects: 0.025900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.766 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 5.538600 ms (FindLiveObjects: 0.955700 ms CreateObjectMapping: 0.140600 ms MarkObjects: 4.407700 ms  DeleteObjects: 0.031500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001419 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.840 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.3 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 5.539700 ms (FindLiveObjects: 0.864700 ms CreateObjectMapping: 0.344000 ms MarkObjects: 4.302200 ms  DeleteObjects: 0.026000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006323 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 3.029200 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.126800 ms MarkObjects: 2.600800 ms  DeleteObjects: 0.035300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000964 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.925 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1580.
-Total: 3.938100 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.164300 ms MarkObjects: 3.361800 ms  DeleteObjects: 0.027200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.728 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 3.118600 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.119200 ms MarkObjects: 2.555800 ms  DeleteObjects: 0.142400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.687 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.981 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1584.
-Total: 4.430800 ms (FindLiveObjects: 0.696000 ms CreateObjectMapping: 0.213800 ms MarkObjects: 3.490000 ms  DeleteObjects: 0.027800 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1548.
+Total: 4.244700 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.141700 ms MarkObjects: 3.642800 ms  DeleteObjects: 0.033800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 582.544419 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Albedo.png
+  artifactKey: Guid(bcbeff6010085e64786f5222d55db756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Albedo.png using Guid(bcbeff6010085e64786f5222d55db756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003110657d7c239afeec32ac67af5725') in 0.925951 seconds
+  Import took 0.933230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Occlusion.png
+  artifactKey: Guid(514086e7be2fed44dbe10a175ad3feac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Occlusion.png using Guid(514086e7be2fed44dbe10a175ad3feac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e76958e68ddeed3875d273be16de8db') in 0.164707 seconds
+  Import took 0.169467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Albedo.png
+  artifactKey: Guid(71636ccfe161a4d41af48817cafd7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Albedo.png using Guid(71636ccfe161a4d41af48817cafd7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfa15e56062d848cb2bc67a533020d6') in 0.117979 seconds
+  Import took 0.123878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Metallic.png
+  artifactKey: Guid(1f9e03d55519a404f981bdede5f199aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Metallic.png using Guid(1f9e03d55519a404f981bdede5f199aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2277424fdbd74e10800c6c0741b6c242') in 0.110579 seconds
+  Import took 0.116437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Height.png
+  artifactKey: Guid(f80925b95e8214045a36efe9fb8136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Height.png using Guid(f80925b95e8214045a36efe9fb8136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d88486c28a29ed3831f2109263144b') in 0.108833 seconds
+  Import took 0.113472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Metallic.png
+  artifactKey: Guid(d6a78d14430a9414aa2f0ea3788e5c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Metallic.png using Guid(d6a78d14430a9414aa2f0ea3788e5c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf1a4bfa5e5a20d6edfd4828cd6001a') in 0.072468 seconds
+  Import took 0.077926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Height.png
+  artifactKey: Guid(7b90e7b8d0ce6bb41b8f0a3481e8b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Height.png using Guid(7b90e7b8d0ce6bb41b8f0a3481e8b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dcbea630d428ba7857dba5068f39ba') in 0.144960 seconds
+  Import took 0.150875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Normal.png
+  artifactKey: Guid(3c6683372640bd143b61cc580af35131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_01_S/Asteroid_01_S_Normal.png using Guid(3c6683372640bd143b61cc580af35131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a48380151a18f15f4ea61162eafd841') in 0.298737 seconds
+  Import took 0.303345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788816 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Normal.png
+  artifactKey: Guid(cfd6744c4a37b4e46865df0b97701bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Normal.png using Guid(cfd6744c4a37b4e46865df0b97701bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59be6ae631b0e1312713fd180bde020') in 0.065988 seconds
+  Import took 0.070572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Occlusion.png
+  artifactKey: Guid(b8736a81b559c13418db88cf4737a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_02_M/Asteroid_02_M_Occlusion.png using Guid(b8736a81b559c13418db88cf4737a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0da5c5c3e68ef540c183b1065b93875') in 0.073604 seconds
+  Import took 0.077363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227509 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Albedo.png
+  artifactKey: Guid(175fe9d0ff8578b449c895a10549ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Albedo.png using Guid(175fe9d0ff8578b449c895a10549ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc3ef6d9b8d8bdbce269ee327e9c60e') in 0.054708 seconds
+  Import took 0.059584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Height.png
+  artifactKey: Guid(dd75b9a9fe68fed49ac2bc99a1d46ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Height.png using Guid(dd75b9a9fe68fed49ac2bc99a1d46ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0bb76bb67bab9bed5a27532261b978') in 0.061205 seconds
+  Import took 0.069090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112764 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Metallic.png
+  artifactKey: Guid(03f7d3966b48d4f41b3ad5213a96b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Metallic.png using Guid(03f7d3966b48d4f41b3ad5213a96b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8118cefbc5ca1f4a853a4b313edcd') in 0.104483 seconds
+  Import took 0.108713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Normal.png
+  artifactKey: Guid(4751e0c4ad5145d4ca1f776dd3de65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Normal.png using Guid(4751e0c4ad5145d4ca1f776dd3de65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae515162fe2cad043af945322d7ae96') in 0.086406 seconds
+  Import took 0.090135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177829 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Occlusion.png
+  artifactKey: Guid(18334a58acf3fa74793baa1eab7f91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Occlusion.png using Guid(18334a58acf3fa74793baa1eab7f91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ebdecef2c4cd91ce8314dcef5455a0') in 0.079699 seconds
+  Import took 0.084609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Albedo.png
+  artifactKey: Guid(157c6a53483094244ab907a02589bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Albedo.png using Guid(157c6a53483094244ab907a02589bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaba967af629d77fab4bf5a97d0fd42') in 0.071591 seconds
+  Import took 0.080986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002419 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Height.png
+  artifactKey: Guid(f4eb31539bb503948bec13ff5b962a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Height.png using Guid(f4eb31539bb503948bec13ff5b962a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca43ca034819e18a3dda46b8e3651e2') in 0.076286 seconds
+  Import took 0.085043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Albedo.png
+  artifactKey: Guid(157c6a53483094244ab907a02589bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Albedo.png using Guid(157c6a53483094244ab907a02589bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaba967af629d77fab4bf5a97d0fd42') in 0.040967 seconds
+  Import took 0.046468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Occlusion.png
+  artifactKey: Guid(18334a58acf3fa74793baa1eab7f91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_03_L/Asteroid_03_L_Occlusion.png using Guid(18334a58acf3fa74793baa1eab7f91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ebdecef2c4cd91ce8314dcef5455a0') in 0.042100 seconds
+  Import took 0.046673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Height.png
+  artifactKey: Guid(f4eb31539bb503948bec13ff5b962a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Height.png using Guid(f4eb31539bb503948bec13ff5b962a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca43ca034819e18a3dda46b8e3651e2') in 0.036350 seconds
+  Import took 0.041287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Metallic.png
+  artifactKey: Guid(7be96aa7e38403b4595a1a29b7d3792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Metallic.png using Guid(7be96aa7e38403b4595a1a29b7d3792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ba49d048cdda82428f5594755e1ced') in 0.086824 seconds
+  Import took 0.100269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180674 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Normal.png
+  artifactKey: Guid(c1004c7160a54034da84d91b07cf36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Normal.png using Guid(c1004c7160a54034da84d91b07cf36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d340e5ccc065c479a8b03c7a896adb0') in 0.087497 seconds
+  Import took 0.095992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Occlusion.png
+  artifactKey: Guid(1736a3c3de097a74e9e9aed31f56d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_04_XL/Asteroid_04_XL_Occlusion.png using Guid(1736a3c3de097a74e9e9aed31f56d726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd570b2867e5defc95c1927aa4a25c5') in 0.097425 seconds
+  Import took 0.104165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Height.png
+  artifactKey: Guid(320af5e721c83bd4ca5f924accc7da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Height.png using Guid(320af5e721c83bd4ca5f924accc7da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eadcfa9dfa0426320b95c746a4ef8d') in 0.067677 seconds
+  Import took 0.075853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Albedo.png
+  artifactKey: Guid(28173b005d1e7f943ac5b2d386836349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Albedo.png using Guid(28173b005d1e7f943ac5b2d386836349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7caeaeb05d63ff1d2d7665bf96989ef') in 0.080899 seconds
+  Import took 0.085580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104739 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Metallic.png
+  artifactKey: Guid(3e110039498539b499860f753650e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Metallic.png using Guid(3e110039498539b499860f753650e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfb9b373322ba23a41103d24bce6b5a') in 0.063984 seconds
+  Import took 0.069838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Procedural fire/Textures/FireSphere1.png
+  artifactKey: Guid(31679c4b857f0d140bd9566b86eb8674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural fire/Textures/FireSphere1.png using Guid(31679c4b857f0d140bd9566b86eb8674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494543594ad54fcdf3d344f1fb879dd5') in 0.081053 seconds
+  Import took 0.085502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Occlusion.png
+  artifactKey: Guid(98f73d2a9805d724da8e9ab88da50739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Occlusion.png using Guid(98f73d2a9805d724da8e9ab88da50739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf34b6e6190269d902eaf1dcf984a83') in 0.067308 seconds
+  Import took 0.073096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Normal.png
+  artifactKey: Guid(58b368ed12497ee43b171f0d1e73a940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AsteroidPack/Textures/Asteroid_05_XXL/Asteroid_05_XXL_Normal.png using Guid(58b368ed12497ee43b171f0d1e73a940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f173c4f46fdce05402bcae7afbf73b2') in 0.159259 seconds
+  Import took 0.165589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132960 seconds.
+  path: Assets/Procedural fire/Textures/FireSphere2.png
+  artifactKey: Guid(a52c2b00382a3264cbea32cfc2c36b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Procedural fire/Textures/FireSphere2.png using Guid(a52c2b00382a3264cbea32cfc2c36b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92178a4b287c28254dbe4bf71537a6b2') in 0.078270 seconds
+  Import took 0.084271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Space/Textures/lazer_green.tif
+  artifactKey: Guid(dbc11a66f3d5e48bc84c4275e9444823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/lazer_green.tif using Guid(dbc11a66f3d5e48bc84c4275e9444823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e62b985d90aae65e68552118994cb6b') in 0.224785 seconds
+  Import took 0.228907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Space/Textures/fx_lazer_cyan_dff.tif
+  artifactKey: Guid(a6390a1c0f6bf47ce9f14148cd092a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/fx_lazer_cyan_dff.tif using Guid(a6390a1c0f6bf47ce9f14148cd092a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6414b85b7ef91cee33e58bd915bcee') in 0.088786 seconds
+  Import took 0.093046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Space/Textures/green_lazer.tif
+  artifactKey: Guid(bd54764165b4a492cbc95298374a6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/green_lazer.tif using Guid(bd54764165b4a492cbc95298374a6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38efad9e5883d7660c6101848ea5ffc6') in 0.098158 seconds
+  Import took 0.102230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003251 seconds.
+  path: Assets/Space/Textures/Nave_D.tga
+  artifactKey: Guid(f0125b2f485da2c4fb86397acc2e469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/Nave_D.tga using Guid(f0125b2f485da2c4fb86397acc2e469a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942361e44489d6bec6f3b481d72d0a10') in 0.112792 seconds
+  Import took 0.117765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Space/Textures/Nave_M.tga
+  artifactKey: Guid(ff1450e2fc47d2341844798ea078e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/Nave_M.tga using Guid(ff1450e2fc47d2341844798ea078e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154eaaee93b56dad6f2cecc7d2f52b54') in 0.076579 seconds
+  Import took 0.081004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Space/Textures/nebula_tile.jpg
+  artifactKey: Guid(8f11b369eeb984c56aeccfb50c4571c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/nebula_tile.jpg using Guid(8f11b369eeb984c56aeccfb50c4571c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815be1e4d2af63fb0a13f2a76236916e') in 0.116673 seconds
+  Import took 0.120853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Space/Textures/Nave_N.tga
+  artifactKey: Guid(fa599ecdb8a00a04282a3481d008c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/Nave_N.tga using Guid(fa599ecdb8a00a04282a3481d008c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4578148dbc958140880c88db5a76b738') in 0.100209 seconds
+  Import took 0.105699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002885 seconds.
+  path: Assets/Space/Textures/Nave_N.tga
+  artifactKey: Guid(fa599ecdb8a00a04282a3481d008c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Space/Textures/Nave_N.tga using Guid(fa599ecdb8a00a04282a3481d008c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4578148dbc958140880c88db5a76b738') in 0.083322 seconds
+  Import took 0.092104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/StarField/Textures/part_star_dff.tif
+  artifactKey: Guid(1c89236d45255234ebd1d39657ff7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarField/Textures/part_star_dff.tif using Guid(1c89236d45255234ebd1d39657ff7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46eb69a0956b43a67689f7f1d798691') in 0.063467 seconds
+  Import took 0.070181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052782 seconds.
+  path: Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Concrete.tga
+  artifactKey: Guid(eca10a393fd9c894fa28b8013cedf3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Concrete.tga using Guid(eca10a393fd9c894fa28b8013cedf3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b217b031efd933e5c7aa83e3459f4482') in 0.076712 seconds
+  Import took 0.082826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Generic.tga
+  artifactKey: Guid(098ba0ef089282845a4753e36b17d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Generic.tga using Guid(098ba0ef089282845a4753e36b17d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02da39fad9d93605f2fe54e5ba3c72b0') in 0.083418 seconds
+  Import took 0.087312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.481538 seconds.
+  path: Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Metal.tga
+  artifactKey: Guid(42c82083dd1523e4cab9b42552bcddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Metal.tga using Guid(42c82083dd1523e4cab9b42552bcddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed71b82207df1a64b827e5e11b67c277') in 0.098928 seconds
+  Import took 0.103574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Wood.tga
+  artifactKey: Guid(89d0c674ad2352b469bf11932fcb9711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosionEffects/WarFX/Desktop/Textures/Bullet Holes/WFX_T_BulletHoles Wood.tga using Guid(89d0c674ad2352b469bf11932fcb9711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03276b599e76b1730034a52e85ce4c3e') in 0.208605 seconds
+  Import took 0.213414 seconds .
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 10.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.6 MB.
+System memory in use after: 41.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 10.015700 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.156700 ms MarkObjects: 9.371000 ms  DeleteObjects: 0.033000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003406 seconds.
+Registered in 0.001187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.622 seconds
+- Completed reload, in  1.729 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.4 MB.
-System memory in use after: 59.5 MB.
+Unloading 1082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 3.314900 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.875100 ms  DeleteObjects: 0.030600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 4.421700 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.132500 ms MarkObjects: 3.858600 ms  DeleteObjects: 0.037200 ms)
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.5 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 9.880700 ms (FindLiveObjects: 0.675800 ms CreateObjectMapping: 0.451100 ms MarkObjects: 8.714800 ms  DeleteObjects: 0.035500 ms)
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.5 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 8.505000 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.114200 ms MarkObjects: 7.824100 ms  DeleteObjects: 0.037100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007293 seconds.
+Registered in 0.002278 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.445 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 2.595300 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.288500 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.5 MB.
+System memory in use after: 41.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 2.787000 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.284200 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.5 MB.
+System memory in use after: 41.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 4.870300 ms (FindLiveObjects: 0.861400 ms CreateObjectMapping: 0.109100 ms MarkObjects: 3.867800 ms  DeleteObjects: 0.028300 ms)
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.5 MB.
+System memory in use after: 41.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 9.580700 ms (FindLiveObjects: 0.796200 ms CreateObjectMapping: 0.158100 ms MarkObjects: 8.592500 ms  DeleteObjects: 0.030100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.088 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.858 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
+Unloading 1082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1588.
-Total: 4.723200 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.145500 ms MarkObjects: 4.309800 ms  DeleteObjects: 0.032700 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 5.215800 ms (FindLiveObjects: 0.320800 ms CreateObjectMapping: 0.112300 ms MarkObjects: 4.744500 ms  DeleteObjects: 0.035200 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001374 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.653 seconds
-Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.3 MB.
-System memory in use after: 59.4 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.6 MB.
+System memory in use after: 41.7 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1590.
-Total: 3.699100 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 3.345200 ms  DeleteObjects: 0.030700 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 3.816400 ms (FindLiveObjects: 0.240900 ms CreateObjectMapping: 0.153300 ms MarkObjects: 3.391200 ms  DeleteObjects: 0.028800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

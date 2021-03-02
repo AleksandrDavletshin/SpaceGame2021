@@ -17,6 +17,11 @@ public class EmitterScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!Controller.isStarted)
+        {
+            return;
+        }
+
         if (Time.time > nextLaunchTime)
         {
             //пора запускать астероид

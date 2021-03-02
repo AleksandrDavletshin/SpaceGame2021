@@ -29,6 +29,11 @@ public class FireFlyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!Controller.isStarted)
+        {
+            return;
+        }
+
         float moveHorizontal = Input.GetAxis("Horizontal"); //куда лететь по горизонтали
         float moveVertical = Input.GetAxis("Vertical"); //куда лететь по вертикали
         StarShip.velocity = new Vector3(moveHorizontal, 0, moveVertical) * speed;

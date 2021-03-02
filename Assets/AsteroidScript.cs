@@ -50,6 +50,7 @@ public class AsteroidScript : MonoBehaviour
         {
             Instantiate(FireFlyExplosion, other.transform.position, Quaternion.identity);
         }
+        Controller.score += 10;//увеличиваем кол-во очков на 10
         Destroy(gameObject);//уничтожаем астероид
         Destroy(other.gameObject);//уничтожаем второй объект
     }
