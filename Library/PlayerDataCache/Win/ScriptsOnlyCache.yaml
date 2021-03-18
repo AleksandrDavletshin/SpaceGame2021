@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - EmitterScript
     - FireFlyScript
     - LazerScript
+    - PauseSkript
     - ScrollerScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -57,33 +58,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1516}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1640}
+      Script: {instanceID: 1642}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2034}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2474}
+      Script: {instanceID: 2476}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2820}
-    - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 2822}
     - Class: 114
       Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3388}
+    - Class: 114
+      Script: {instanceID: 3472}
+    - Class: 114
+      Script: {instanceID: 16776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -597,6 +600,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d8281e2ee8808beb1e5778848fd20284
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseSkript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
