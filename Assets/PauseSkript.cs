@@ -18,10 +18,10 @@ public class PauseSkript : MonoBehaviour
         PauseMenu.gameObject.SetActive(isOpened);
     }
     // Start is called before the first frame update
-    void Start()
-    {
+    //void Start()
+    //{
         
-    }
+    //}
 
     // Update is called once per frame
     void Update()
@@ -56,8 +56,7 @@ public class PauseSkript : MonoBehaviour
 
     public void GoToMain()
     {
-        Controller.isStarted = false;
-        GetComponent<Canvas>().enabled = Controller.isStarted;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void QuitGame()

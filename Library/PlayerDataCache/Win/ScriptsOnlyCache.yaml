@@ -11,6 +11,8 @@ ScriptsOnlyBuild:
     - ScrollerScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -53,40 +55,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 1618}
+      Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1800}
+      Script: {instanceID: 1814}
     - Class: 114
-      Script: {instanceID: 2036}
+      Script: {instanceID: 2054}
     - Class: 114
-      Script: {instanceID: 2230}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2476}
+      Script: {instanceID: 2326}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 2866}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3472}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 16776}
+      Script: {instanceID: 3546}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -242,7 +246,7 @@ ScriptsOnlyBuild:
     className: CFX_LightIntensityFade
   - hash:
       serializedVersion: 2
-      Hash: 344a8c2e106a0a4e098e91a52e0af063
+      Hash: f0786811516f7de8befd7a3e181e567a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
@@ -344,6 +348,12 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: d8281e2ee8808beb1e5778848fd20284
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseSkript
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -372,6 +382,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -452,7 +468,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: c1933cc0a2f4ff6eb13333347497beb3
+      Hash: a74405a4829a834d107a0c6e072719ed
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
@@ -470,7 +486,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 5cc439bf63c0539d39588e69465ac2ab
+      Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
@@ -506,7 +522,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: c8c9d8ff54f5e1e108296aa19c108880
+      Hash: a306e12d896ddcca949923c805691027
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
@@ -600,12 +616,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: d8281e2ee8808beb1e5778848fd20284
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PauseSkript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

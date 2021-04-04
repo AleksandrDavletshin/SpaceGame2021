@@ -23,7 +23,7 @@ public class FireFlyScript : MonoBehaviour
         StarShip = GetComponent<Rigidbody>();
         //StarShip.velocity = new Vector3(15,0,25);
 
-        StartCoroutine(Countdown());
+        StartCoroutine(Countdown());//запуск корутины
     }
 
     // Update is called once per frame
@@ -42,27 +42,14 @@ public class FireFlyScript : MonoBehaviour
 
         StarShip.position = new Vector3(clampedx, 0, clampedz);
 
-        StarShip.rotation = Quaternion.Euler(StarShip.velocity.z * tilt, 0, -StarShip.velocity.x * tilt);
-
-        //Делаем выстрел
-        // var go = Instantiate(LazerShot, LazerGun.position, Quaternion.identity);
-        //go.GetComponent<Rigidbody>().velocity = Vector3.forward * speed;
-        //Destroy(go, 2f);
-        /*var go = Instantiate(LazerShot, LazerGun.position, Quaternion.identity);
-        var go1 = Instantiate(LazerShot, LazerGun1.position, Quaternion.identity);
-        var go2 = Instantiate(LazerShot, LazerGun2.position, Quaternion.identity);
-        var go3 = Instantiate(LazerShot, LazerGun3.position, Quaternion.identity);
-        var go4 = Instantiate(LazerShot, LazerGun4.position, Quaternion.identity);*/
-
-
-        
+        StarShip.rotation = Quaternion.Euler(StarShip.velocity.z * tilt, 0, -StarShip.velocity.x * tilt);      
     }
 
     private IEnumerator Countdown()
     {
         while (true)
         {
-            if (Input.GetButton("Fire1"))
+            if (Input.GetButton("Fire1"))//делаем выстрел
             {
                 var go = Instantiate(LazerShot, LazerGun.position, Quaternion.identity);
                 var go1 = Instantiate(LazerShot, LazerGun1.position, Quaternion.identity);
@@ -72,13 +59,13 @@ public class FireFlyScript : MonoBehaviour
 
                 
 
-                Destroy(go, 2f);
+                Destroy(go, 2f);//разрушаем выстрел через 2 секунды
                 Destroy(go1, 2f);
                 Destroy(go2, 2f);
                 Destroy(go3, 2f);
                 Destroy(go4, 2f);
             }
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.2f);//повторить выполнение через секунду
 
         }
 

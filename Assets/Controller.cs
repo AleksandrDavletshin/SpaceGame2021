@@ -8,30 +8,35 @@ public class Controller : MonoBehaviour
     public UnityEngine.UI.Text scoreLable;
     public UnityEngine.UI.Image menu;
     public UnityEngine.UI.Button startButton;
-    //public UnityEngine.UI.Button pauseButton;
     public static int score = 0;
     public static bool isStarted = false;//запущена ли игра
     // Start is called before the first frame update
     void Start()
     {
-        startButton.onClick.AddListener(delegate 
-        {
-            menu.gameObject.SetActive(false);
-            isStarted = true;//запуск игры
-        });
-
-        ////pauseButton.onClick.AddListener(TogglePause);
+        StartGame();
     }
 
-    /*public void TogglePause()
+    public void StartGame()
     {
-        Time.timeScale = Mathf.Approximately(Time.timeScale, 0.0f) ? 1.0f : 0.0f;
-    }*/
+            startButton.onClick.AddListener(delegate
+            {
+                menu.gameObject.SetActive(false);
+                isStarted = true;//запуск игры
+            });
+
+        if (isStarted == true)
+        {
+            Time.timeScale = 1;//если игра запущена, снять с паузы и обнулить счетчик очков
+            score = 0;
+        }
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-
+        
         scoreLable.text = "Score: " + score;
+        
     }
 }

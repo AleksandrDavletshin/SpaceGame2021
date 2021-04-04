@@ -26,7 +26,7 @@ public class AsteroidScript : MonoBehaviour
 
         asteroidBody.velocity = new Vector3(speedX, 0, -speed) / size;
         Asteroid.velocity = new Vector3(speedX, 0, -speed) / size;
-        Asteroid.transform.localScale *= size;
+        Asteroid.transform.localScale *= size;//случайный размер астероида
 
     }
 
@@ -53,6 +53,7 @@ public class AsteroidScript : MonoBehaviour
         Controller.score += 10;//увеличиваем кол-во очков на 10
         Destroy(gameObject);//уничтожаем астероид
         Destroy(other.gameObject);//уничтожаем второй объект
+        
     }
 }
 

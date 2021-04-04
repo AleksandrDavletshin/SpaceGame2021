@@ -19,7 +19,7 @@ public class EmitterScript : MonoBehaviour
     {
         if (!Controller.isStarted)
         {
-            return;
+            return;//если игра не запущена, ничего не делать
         }
 
         if (Time.time > nextLaunchTime)
@@ -37,7 +37,7 @@ public class EmitterScript : MonoBehaviour
             GameObject shot = Instantiate(asteroid, new Vector3(posX, posY, posZ), Quaternion.identity);
             
             nextLaunchTime = Time.time + Random.Range(minDelay, maxDelay);
-            Destroy(shot, 5f);
+            Destroy(shot, 5f);//разрушить астероид через 5 секунд
         }
     }
 }
