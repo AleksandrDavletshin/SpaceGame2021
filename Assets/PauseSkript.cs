@@ -11,6 +11,7 @@ public class PauseSkript : MonoBehaviour
     public UnityEngine.UI.Button QuitButton;
     public UnityEngine.UI.Button ResumeGameButton;
     public static bool GameIsPaused = false;
+    public static PauseSkript _Pause;
 
     public void ShowHideMenu()
     {
@@ -20,10 +21,12 @@ public class PauseSkript : MonoBehaviour
     // Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     // Update is called once per frame
+
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -52,6 +55,19 @@ public class PauseSkript : MonoBehaviour
         PauseMenu.gameObject.SetActive(true);
         Time.timeScale = 0;
         GameIsPaused = true;
+    }
+    public void Awake()
+    {
+        if (_Pause == null)
+        {
+            _Pause = this;
+        }
+    }
+
+    public static void LoseGame()
+    {
+        _Pause.Pause();
+        _Pause.ResumeGameButton.interactable = false;
     }
 
     public void GoToMain()

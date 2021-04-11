@@ -37,7 +37,7 @@ public class AsteroidScript : MonoBehaviour
     }
 
     //метод вызывается при столкновении с другим коллайдером
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Asteroid")
         {
@@ -54,6 +54,11 @@ public class AsteroidScript : MonoBehaviour
         Destroy(gameObject);//уничтожаем астероид
         Destroy(other.gameObject);//уничтожаем второй объект
         
+        if (other.tag == "Player")
+        {
+            new WaitForSeconds(2);
+            PauseSkript.LoseGame();
+        }
     }
 }
 
