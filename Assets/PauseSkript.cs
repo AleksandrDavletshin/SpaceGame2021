@@ -66,6 +66,7 @@ public class PauseSkript : MonoBehaviour
 
     public static void LoseGame()
     {
+        
         _Pause.Pause();
         _Pause.ResumeGameButton.interactable = false;
     }

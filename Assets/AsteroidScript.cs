@@ -53,10 +53,9 @@ public class AsteroidScript : MonoBehaviour
         Controller.score += 10;//увеличиваем кол-во очков на 10
         Destroy(gameObject);//уничтожаем астероид
         Destroy(other.gameObject);//уничтожаем второй объект
-        
+
         if (other.tag == "Player")
         {
-            new WaitForSeconds(2);
             PauseSkript.LoseGame();
         }
     }
