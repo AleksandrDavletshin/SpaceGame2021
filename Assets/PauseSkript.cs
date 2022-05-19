@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseSkript : MonoBehaviour
 {
-    public bool isOpened = false;//открыто ли меню Паузы
+    public bool isOpened = false;//??????? ?? ???? ?????
     public UnityEngine.UI.Image PauseMenu;
     public UnityEngine.UI.Button QuitButton;
     public UnityEngine.UI.Button ResumeGameButton;
@@ -79,7 +79,7 @@ public class PauseSkript : MonoBehaviour
     public void QuitGame()
     {
         
-        Application.Quit(); //Закрытие игры
+        Application.Quit(); //???????? ????
         Debug.Log("Quitting game...");
     }
 }

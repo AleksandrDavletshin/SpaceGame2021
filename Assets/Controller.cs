@@ -9,7 +9,7 @@ public class Controller : MonoBehaviour
     public UnityEngine.UI.Image menu;
     public UnityEngine.UI.Button startButton;
     public static int score = 0;
-    public static bool isStarted = false;//запущена ли игра
+    public static bool isStarted = false;//???????? ?? ????
     // Start is called before the first frame update
     void Start()
     {
@@ -18,15 +18,15 @@ public class Controller : MonoBehaviour
 
     public void StartGame()
     {
-            startButton.onClick.AddListener(delegate
+        startButton.onClick.AddListener(delegate
             {
                 menu.gameObject.SetActive(false);
-                isStarted = true;//запуск игры
+                isStarted = true;//?????? ????
             });
 
         if (isStarted == true)
         {
-            Time.timeScale = 1;//если игра запущена, снять с паузы и обнулить счетчик очков
+            Time.timeScale = 1;//???? ???? ????????, ????? ? ????? ? ???????? ??????? ?????
             score = 0;
         }
         
